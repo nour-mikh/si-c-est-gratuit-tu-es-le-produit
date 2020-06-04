@@ -1,0 +1,129 @@
+html, body{
+	font-family: "futura_r", sans-serif;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+section{
+	padding-top: 0.1px;
+	max-width: 100%;
+	font-size: 2em;
+	text-align: center;
+	color: #b9b4db;
+	height: 100vh;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+#title{
+	font-size: 2.5em;
+	padding-top: 0.75em;
+}
+.firstSection{
+	background-color: #de5b6d;
+}
+.secondSection{
+	background-color: #e9765b;
+	color: #e6eff0;
+}
+.thirdSection{
+	background-color: #f2a490;
+	color: #de5b6d !important;
+}
+.fourthSection{
+	background-color: #b9d4d0;
+}
+
+.exemples{
+	display: grid;
+	grid-template-areas:
+	"a b c"
+	"d e f";
+	grid-gap: 0.7em;
+	align-content: center;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+div img{
+	width: 5em;
+	height: 5em;
+}
+
+div img:hover,button:hover{
+	transform: scale(1.2);
+}
+
+#ytb{
+	width:6em !important;
+}
+
+a{
+	text-decoration: none;
+	color: #e6eff0;
+}
+#page2{
+	width: 30em;
+	height: 10em;
+	background-color: #b9b4db;
+	color: #de5b6d;
+}
+#navbar{
+	padding: 0.3em;
+	display: grid;
+	grid-template-columns: repeat(2, 20em);
+	position: fixed;
+	top:0;
+	justify-content: center;
+	background-color: #b9b4db;
+	color: #e6eff0 !important;
+	font-size: 1em;
+	width: 100%;
+	text-align: center;
+	height: 1em;
+}
+
+#scroll{
+	cursor: pointer;
+}
+
+#cookies{
+	height: 20vh;
+	z-index: 99;
+	background-color: #478ba2;
+	color: #b9b4db;
+	text-align: center;
+	padding: 1em;
+	position: fixed;
+	bottom: 0;
+}
+
+#accepter, #refuser{
+	width: 7em;
+	height: 3em;
+	margin-left: 1em;
+	background-color: #b9b4db;
+	color: #de5b6d;
+}
+
+th,td{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+th{
+	background-color: rgba(255, 191, 234, 0.5);
+}
+
+#entreprises{
+	width: 12em;
+	height: 6.5em;
+}
