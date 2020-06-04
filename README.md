@@ -5,6 +5,7 @@ Ceci est un site web qui détaille et élabore une expression qu'on entend quoti
 "Si c'est gratuit, c'est toi le produit" a tant raisonné dans notre cerveau, il est temps de mieux comprendre.
 
 Remarques et points particuliers :
+
 Le site web fonctionne optimalement pour une résolution de 1536x864 vu l'abscence de media queries.
 Ne pas consulter ce site web sur smartphone pour la même raison.
 Il n'y a pas de scrollbar apparent pour un meilleur aspect, mais les pages sont évidemment défilable.
